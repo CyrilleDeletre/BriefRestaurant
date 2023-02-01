@@ -4,10 +4,10 @@ const Navbar = () => {
     return (
         <>
             <nav>
-                <ul>
-                    <li>
+                    <div>
                         <Link Link to="/">La table de Chantal</Link>
-                    </li>
+                    </div>
+                <ul>
                     <li>
                         <Link Link to="/">Accueil</Link>
                     </li>
