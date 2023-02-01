@@ -1,0 +1,23 @@
+.presentation{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background-color: brown;
+    flex-wrap: wrap;
+}
+.texte_presentation{
+    padding: 10px;
+    width: 680px;
+}
+.titre_presentation{
+
+}
+.soustitre_presentation{
+
+}
+.contenu_presentation{
+
+}
+img{
+    width: 300px;
+}
