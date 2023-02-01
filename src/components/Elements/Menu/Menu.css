@@ -1,7 +1,5 @@
 nav {
-    height: 80px;
     background-color: #363636;
-    /* background-color: #8cc63f; */
     display: flex;
     justify-content: space-between;
     align-items: center;
