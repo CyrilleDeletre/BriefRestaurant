@@ -15,7 +15,7 @@ const Presentation = () => {
                 </p>
             </div>
 
-            <img src='/img/table.jpg' alt="Logo HubSpot"></img>
+            <img className='monimage' src='/img/table.jpg' alt="Logo HubSpot"></img>
 
         </div>
     )
