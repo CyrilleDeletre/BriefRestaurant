@@ -9,7 +9,7 @@ const Navbar = () => {
                     
                     <Link Link to="/">
                         <img src="../img/logoRestaurant.jpg" alt="" />
-                        La table de Chantal
+                        <span id="test">La table de Chantal</span>
                     </Link>
                 </div>
 
