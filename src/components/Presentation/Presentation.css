@@ -21,6 +21,6 @@
 
 .monimage{
     width: 300px;
-    background-color: var(--borderColor);
+    background-color: var(--white);
     padding: 5px;
 }

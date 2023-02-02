@@ -29,19 +29,30 @@
     --inputBackgroundColorFocus:var(--title);
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 4;
 }
 
 main{
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
+h2{
+    color: var(--title);
+}
 
-footer{
-    width: 100%;
-    /* bottom: 0;
-    position: fixed; */
+span{
+    color: var(--importantText);
+}
+
+aside p, aside td {
+    color: var(--darkThemeTextColor);
 }
