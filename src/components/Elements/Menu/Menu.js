@@ -4,30 +4,31 @@ import '../Menu/Menu.css';
 const Navbar = () => {
     return (
         <>
-            <nav>
-                <div>
-                    
-                    <Link Link to="/">
-                        <img src="../img/logoRestaurant.jpg" alt="Logo du restaurant la table de Chantal" />
-                        Chantal
-                    </Link>
-                </div>
-
-                <ul>
-                    <li>
-                        <Link Link to="/">Accueil</Link>
-                    </li>
-                    <li>
-                        <Link Link to="/plats">Solide</Link>
-                    </li>
-                    <li>
-                        <Link Link to="/boissons">Liquide</Link>
-                    </li>
-                    <li>
-                        <Link Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-            </nav>
+            <header>
+                <nav>
+                    <div>
+                
+                        <Link Link to="/">
+                            <img src="../img/logoRestaurant.jpg" alt="Logo du restaurant la table de Chantal" />
+                            Chantal
+                        </Link>
+                    </div>
+                    <ul>
+                        <li>
+                            <Link Link to="/">Accueil</Link>
+                        </li>
+                        <li>
+                            <Link Link to="/plats">Solide</Link>
+                        </li>
+                        <li>
+                            <Link Link to="/boissons">Liquide</Link>
+                        </li>
+                        <li>
+                            <Link Link to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
         </>
     )
 }
