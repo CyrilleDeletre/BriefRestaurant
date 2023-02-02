@@ -49,10 +49,15 @@ function AsideLeftContact() {
 
             <tr>
               <td>Dimanche</td>
-              <td>FERMÉ</td>
+              <td><span>FERMÉ</span></td>
             </tr>
             
           </table>
+
+          <figcaption>
+            <img src="../img/laTableDeChantal.jpg" alt="restaurant la Table de Chantal" />
+          </figcaption>
+
         </section>
     </aside>
   );
