@@ -35,9 +35,9 @@ nav div a{
     color: #5bc4be;
     font-size: 24px;
     text-decoration: none;
-    /* background-color: #f7941e; */
 }
 
 nav div a img{
-    max-height: 52px;
+    padding: 10px;
+    height: 60px;
 }

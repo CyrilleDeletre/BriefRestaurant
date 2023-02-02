@@ -8,8 +8,8 @@ const Navbar = () => {
                 <div>
                     
                     <Link Link to="/">
-                        <img src="../img/logoRestaurant.jpg" alt="" />
-                        <span id="test">La table de Chantal</span>
+                        <img src="../img/logoRestaurant.jpg" alt="Logo du restaurant la table de Chantal" />
+                        Chantal
                     </Link>
                 </div>
 
