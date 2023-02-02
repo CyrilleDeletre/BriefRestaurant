@@ -7,7 +7,8 @@ const Home = () => {
     return (
         <>
             <Menu />
-            <p>Je suis la page home</p>
+            <p>Slider</p>
+            <h1>Accueil</h1>
             <Presentation />
             <Footer />
         </>
