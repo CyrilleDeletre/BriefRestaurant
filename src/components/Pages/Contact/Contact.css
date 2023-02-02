@@ -1,9 +1,9 @@
-main{
-    display: flex;
-    gap: 20px;
-}
-
 form{
     width: 60%;
     margin:auto ;
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
 }
