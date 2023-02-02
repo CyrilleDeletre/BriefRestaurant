@@ -8,16 +8,19 @@ const Footer = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">Facebook</a>
+                            <a href="https://www.facebook.com/LaTableDeChantal/?locale=fr_FR">Facebook</a>
                         </li>
                         <li>
-                            <a href="#">Instagram</a>
+                            <a href="https://www.instagram.com/p/CdGWZpiNQHv/">Instagram</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <Link Link to="/cgu">CGU</Link>
                         </li>
                         <li>
-                            <Link Link to="/boissons">CGU</Link>
-                        </li>
-                        <li>
-                            <Link Link to="/contact">Protection des données</Link>
+                            <Link Link to="/protection">Protection des données</Link>
                         </li>
                     </ul>
                 </nav>
