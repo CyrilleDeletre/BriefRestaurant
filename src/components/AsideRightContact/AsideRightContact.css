@@ -1,0 +1,19 @@
+aside button{
+    cursor: pointer;
+    width: 90%;
+    color: var(--buttonTextColor);
+    background-color:var(--buttonBackgroundColor) ;
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border: 4px solid var(--borderColor);
+}
+
+aside button:hover{
+    background-color: var(--buttonBackgroundColorHover);
+    color: var(--buttonTextColorHover);
+    border: 4px solid var(--white);
+}

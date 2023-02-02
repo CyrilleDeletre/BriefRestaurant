@@ -66,6 +66,7 @@ form .inputcss input:focus::placeholder, textarea:focus::placeholder{
 
 
 form button{
+    cursor: pointer;
     color: var(--buttonTextColor);
     background-color:var(--buttonBackgroundColor) ;
     border: none;

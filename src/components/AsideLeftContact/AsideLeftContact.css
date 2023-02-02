@@ -15,3 +15,13 @@ aside img{
     padding: 5px;
 }
 
+figure{
+    margin: 20px 0;
+}
+
+figcaption{
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--title);
+}
+
