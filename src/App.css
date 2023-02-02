@@ -2,7 +2,8 @@
     --importantText: #ff0000;
     --text:#363636;
     --title:#5bc4be;
-    --darkThemeTextColor:#ffffff;
+    --white:#ffffff;
+    --darkThemeTextColor:var(--white);
     --darkThemeBackgroundColor:var(--text);
 
     /* Text Hover */
