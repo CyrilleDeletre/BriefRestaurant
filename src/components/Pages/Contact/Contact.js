@@ -7,8 +7,16 @@ const Contact = () => {
     return (
         <>
             <Menu />
-            <p>Je suis la page contact</p>
-            <Formulaire />
+            
+            <main>
+                <aside>
+                    <div>azieaz</div>
+                </aside>
+                <Formulaire />
+                <aside>
+                    <div>azieaz</div>
+                </aside>
+            </main>
             <Footer />
         </>
     )

@@ -4,7 +4,7 @@ function Formulaire() {
   return (
 <form id="validation">
         <fieldset>
-            <legend>Inscrivez-vous</legend>
+            <legend>Contactez nous</legend>
 
             <section class="inputcss">
                 <div>
@@ -32,14 +32,13 @@ function Formulaire() {
 
             <section class="inputcss">
                 <div>
-                    <label for="birthdate">Date de naissance<span>*</span> :</label>
+                    <label for="birthdate">Date de naissance :</label>
                     <input
                         type="date"
                         name="birthdate"
                         id="birthdate"
                         min="1900-01-01"
                         max="2010-01-30"
-                        required
                     />
                 </div>
 
@@ -56,32 +55,21 @@ function Formulaire() {
                 </div>
             </section>
 
-            <section class="inputcss">
+            <section class="textareacss">
                 <div>
-                    <label for="password">Mot de passe<span>*</span> :</label>
-                    <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        placeholder="1234ABCDabcd@"
+                    <label htmlFor="message">Votre message<span>*</span> :</label>
+                    <textarea
+                        
+                        name="message"
+                        id="message"
+                        cols="30"
+                        rows="10"
                         required
-                    />
-                </div>
-
-
-                <div>
-                    <label for="passwordConfirmation">Confirmation du mot de passe<span>*</span> :</label>
-                    <input
-                        type="password"
-                        name="passwordConfirmation"
-                        id="passwordConfirmation"
-                        placeholder="1234ABCDabcd@"
-                        required
-                    />
+                        placeholder='Votre message'
+                    >
+                    </textarea>
                 </div>
             </section>
-
-
 
             <section class="cgu">
                 <div>
@@ -95,15 +83,13 @@ function Formulaire() {
                 </div>
             </section>
 
-            <section>
+            <section class="buttonValidation">
                 <div>
                     <button type="submit">Validation</button>
                 </div>
             </section>
 
             <p>
-                <em>Les accents ne sont pas autorisés.</em>
-                <em>En cas de nom composé, utilisez un tiret au lieu d'un espace.</em>
                 <em>Les champs marqués par <span>*</span> sont obligatoires.</em>
             </p>
         </fieldset>

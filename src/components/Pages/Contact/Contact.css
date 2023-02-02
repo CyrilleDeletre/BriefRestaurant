@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    gap: 20px;
+}
+
+form{
+    width: 60%;
+    margin:auto ;
+}
+
+aside{
+    background-color: red;
+    min-width: 20%;
+    min-height: 20%;
+}
