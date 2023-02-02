@@ -28,3 +28,15 @@
     --inputFocus:var(--darkThemeTextColor);
     --inputBackgroundColorFocus:var(--title);
 }
+
+/* header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+} */
+
+footer{
+    width: 100%;
+    /* bottom: 0;
+    position: fixed; */
+}
