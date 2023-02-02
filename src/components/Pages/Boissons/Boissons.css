@@ -1,0 +1,36 @@
+.liquide ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    text-align: center;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: var(--darkThemeBackgroundColor);
+}
+
+.liquide h2{
+    font-size: 30px;
+}
+
+.liquide .p1{
+    color: var(--title);
+}
+
+.liquide .p2{
+    color: var(--white);
+    }
+    
+.liquide img{
+    margin: 20px;
+    border: 6px solid var(--borderColor);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.liquide{
+    margin: auto;
+    width: 80%;
+}

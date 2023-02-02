@@ -6,7 +6,7 @@ function Formulaire() {
         <fieldset>
             <legend>Contactez nous</legend>
 
-            <section class="inputcss">
+            <section className="inputcss">
                 <div>
                     <label for="lastname">Nom<span>*</span> : </label>
                     <input
@@ -30,7 +30,7 @@ function Formulaire() {
                 </div>
             </section>
 
-            <section class="inputcss">
+            <section className="inputcss">
                 <div>
                     <label for="birthdate">Date de naissance :</label>
                     <input
@@ -55,7 +55,7 @@ function Formulaire() {
                 </div>
             </section>
 
-            <section class="textareacss">
+            <section className="textareacss">
                 <div>
                     <label htmlFor="message">Votre message<span>*</span> :</label>
                     <textarea
@@ -83,7 +83,7 @@ function Formulaire() {
                 </div>
             </section>
 
-            <section class="buttonValidation">
+            <section className="buttonValidation">
                 <div>
                     <button type="submit">Validation</button>
                 </div>

@@ -7,7 +7,9 @@ function AsideLeftContact() {
         <section>
           <h2>Adresse du restaurant</h2>
           <p>297, chaussée Fernand Forest , Tourcoing, France</p>
-          <Map />
+          <figure className='GoogleMap'>
+            <Map />
+          </figure>
         </section>
 
         

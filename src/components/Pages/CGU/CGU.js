@@ -34,7 +34,7 @@ const CGU = () => {
                                 <h3>Conception du site :</h3>
 
                                 <p>France Vélo Tourisme - 5 rue Santeuil - 44000 Nantes</p>
-                                <a href="#">www.francevelotourisme.com</a>
+                                
                             </section>    
 
                             <section>
@@ -75,7 +75,7 @@ const CGU = () => {
                             <p>
                                 © les contributeurs d'OpenStreetMap
                             </p>
-                            <a href="#">www.openstreetmap.org/copyright/fr</a>
+                            
                             <h3>Hébergement :</h3>
                             <p>
                                 OVH - 2 rue Kellermann - 59100 Roubaix

@@ -25,3 +25,8 @@ figcaption{
     color: var(--title);
 }
 
+.GoogleMap{
+    width: ;
+    background-color: var(--white);
+    padding: 5px;
+}

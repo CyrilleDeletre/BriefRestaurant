@@ -103,15 +103,21 @@ const carte=[
     },
     {
         type: 'chaude',
-        tarif: '6.00',
+        tarif: '3.00',
         libelle: 'Café',
         illustration: 'cafe.jpg'
     },
     {
         type: 'chaude',
-        tarif: '6.00',
+        tarif: '3.00',
         libelle: 'Thé citron',
         illustration: 'thecitron.jpg'
+    },
+    {
+        type: 'chaude',
+        tarif: '3.00',
+        libelle: 'Tisane',
+        illustration: 'tisane.jpg'
     }
 
 ];
