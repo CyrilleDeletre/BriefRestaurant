@@ -6,7 +6,11 @@ const Boissons = () => {
     return (
         <>
             <Menu />
-            <p>Je suis la page boissons</p>
+
+            <main>
+                <p>Je suis la page boissons</p>
+            </main>
+            
             <Footer />
         </>
     )

@@ -6,7 +6,9 @@ const Plats = () => {
     return (
         <>
             <Menu />
-            <p>Je suis la page plats</p>
+            <main>
+                <p>Je suis la page plats</p>
+            </main>
             <Footer />
         </>
     )
