@@ -1,28 +1,14 @@
 import Menu from '../../Elements/Menu/Menu';
-import Data from '../../Data/Datacarte';
+import ComponentCarte from '../../componentCarte/componentCarte';
 
 const Plats = () => {
     return (
         <>
             <Menu />
             <main>
-                <h2>Je suis la page plats</h2>
-                <ul>
-                    {Data.map((uneData, i) =>
-                        {
-                            if (uneData.type === 'entree') 
-                            {
-                                return (
-                                    <li key={i}>
-                                        <img src={`img/${uneData.illustration}`} alt="un txt au pif"/>
-                                        <p>{uneData.libelle}</p>
-                                        <p>{uneData.tarif}</p>
-                                    </li>
-                                )
-                            }
-                        }
-                    )}
-                </ul>
+                <ComponentCarte info={'entree'} title={'Nos entrées'}/>
+                <ComponentCarte info={'plat'} title={'Nos plats'}/>
+                <ComponentCarte info={'dessert'} title={'Carte des dessert'}/>
             </main>
         </>
     )
