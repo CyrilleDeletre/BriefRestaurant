@@ -2,15 +2,15 @@
     display: flex;
     max-width: 1000px;
     margin: auto;
-    background-color: #363636;
-    color: white;
+    background-color: var(--darkThemeBackgroundColor);
+    color: var(--darkThemeColorText);
     flex-wrap: wrap;
     padding: 20px;
-    border: 6px solid #5bc4be;
+    border: 6px solid var(--borderColor);
     border-radius: 20px;
 }
 .presentation h2{
-    color: #5bc4be;
+    color: var(--title);
 }
 .texte_presentation{
     padding: 10px;
@@ -27,6 +27,6 @@
 }
 .monimage{
     width: 300px;
-    background-color: white;
+    background-color: var(--borderColor);
     padding: 5px;
 }

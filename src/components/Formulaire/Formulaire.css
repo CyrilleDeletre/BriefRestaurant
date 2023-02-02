@@ -1,21 +1,13 @@
-:root{
-    --required: #ff0000;
-    --placeholderFocus:#5bc4be;
-    --placeholderFocusTxt:#ffffff;
-    --buttonHover:#44928e;
-    --input:#363636;
-}
-
 form fieldset{
     padding: 20px;
     margin-bottom: 20px;
     border: none ;
-    border: 4px solid var(--placeholderFocus);
+    border: 4px solid var(--borderColor);
     border-radius: 10px;
 }
 
 form legend{
-    color: var(--buttonHover);
+    color: var(--title);
     font-size: 30px;
 }
 
@@ -33,57 +25,62 @@ form .inputcss div{
 form .inputcss label{
     display: block;
     width: 80%;
-    color: var(--buttonHover);
+    color: var(--labelText);
     font-size: 20px;
 }
 
 form span{
-    color: var(--required);
+    color: var(--importantText);
 }
 
 form .inputcss input{
     width: 80%;
     display: block;
     margin: 0;
-    background-color: var(--input);
-    color: var(--buttonHover);
-    border: 4px solid var(--placeholderFocus);
+    background-color: var(--inputBackgroundColor);
+    color: var(--inputText);
+    border: 4px solid var(--borderColor);
     border-radius: 10px;
     outline: none;
     padding: 10px;
 }
 
 form .inputcss input::placeholder, textarea::placeholder{
-    color: var(--buttonHover);
+    color: var(--inputText);
 }
 
-form .inputcss input:focus, textarea:focus{
-    color: var(--placeholderFocusTxt);
-    background-color: var(--placeholderFocus);
-    border: 4px solid var(--input);
+form .inputcss input:focus{
+    color: var(--inputFocus);
+    background-color: var(--inputBackgroundColorFocus);
+    border: 4px solid var(--borderColorFocus);
 }
 
+form textarea:focus{
+    color: var(--inputFocus);
+    background-color: var(--inputBackgroundColorFocus);
+    border: 4px solid var(--borderColorFocus);
+}
 form .inputcss input:focus::placeholder, textarea:focus::placeholder{
-    color: var(--placeholderFocusTxt);
+    color: var(--inputFocus);
 }
 
 
 form button{
-    color: var(--placeholderFocus);
-    background-color:var(--input) ;
+    color: var(--buttonTextColor);
+    background-color:var(--buttonBackgroundColor) ;
     border: none;
     margin: 20px;
     padding: 20px;
     border-radius: 40px;
     font-size: 20px;
     letter-spacing: 4px;
-    border: 4px solid var(--placeholderFocus);
+    border: 4px solid var(--borderColor);
 }
 
 form button:hover{
-    background-color: var(--placeholderFocus);
-    color: var(--placeholderFocusTxt);
-    border: 4px solid var(--input);
+    background-color: var(--buttonBackgroundColorHover);
+    color: var(--buttonTextColorHover);
+    border: 4px solid var(--borderColorHover);
 }
 
 form .cgu{
@@ -91,7 +88,7 @@ form .cgu{
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    color: var(--buttonHover);
+    color: var(--labelText);
     font-size: 20px;
 }
 
@@ -102,18 +99,19 @@ form .cgu{
 .textareacss textarea{
     width: 85%;
     display: block;
-    background-color: var(--input);
-    color: var(--buttonHover);
-    border: 4px solid var(--placeholderFocus);
+    background-color: var(--inputBackgroundColor);
+    color: var(--inputText);
+    border: 4px solid var(--borderColor);
     border-radius: 10px;
     outline: none;
     padding: 10px;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 .textareacss label{
     text-align: center;
     display: block;
-    color: var(--buttonHover);
+    color: var(--labelText);
     font-size: 20px;
+    margin-top: 40px;
 }

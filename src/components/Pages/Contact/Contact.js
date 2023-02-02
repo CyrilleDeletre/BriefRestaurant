@@ -2,6 +2,8 @@ import Menu from '../../Elements/Menu/Menu';
 import Formulaire from '../../Formulaire/Formulaire';
 import Footer from '../../Elements/Footer/Footer';
 import '../Contact/Contact.css';
+import AsideLeftContact from '../../AsideLeftContact/AsideLeftContact';
+import AsideRightContact from '../../AsideRightContact/AsideRightContact';
 
 const Contact = () => {
     return (
@@ -9,13 +11,9 @@ const Contact = () => {
             <Menu />
             
             <main>
-                <aside>
-                    <div>azieaz</div>
-                </aside>
+                <AsideLeftContact />
                 <Formulaire />
-                <aside>
-                    <div>azieaz</div>
-                </aside>
+                <AsideRightContact />
             </main>
             <Footer />
         </>

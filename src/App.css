@@ -1,0 +1,29 @@
+:root{
+    --importantText: #ff0000;
+    --text:#363636;
+    --title:#5bc4be;
+    --darkThemeTextColor:#ffffff;
+    --darkThemeBackgroundColor:var(--text);
+
+    /* Text Hover */
+    --textHover:var(--title);
+    
+    /* Button */
+    --buttonTextColor:var(--title);
+    --buttonBackgroundColor:var(--text);
+    --buttonTextColorHover:var(--darkThemeTextColor);
+    --buttonBackgroundColorHover:var(--title);
+    
+
+    /* Border */
+    --borderColor:var(--title);
+    --borderColorHover:var(--text);
+    --borderColorFocus:var(--text);
+
+    /* Input & Label*/
+    --labelText:var(--title);
+    --inputText:var(--title);
+    --inputBackgroundColor:var(--text);
+    --inputFocus:var(--darkThemeTextColor);
+    --inputBackgroundColorFocus:var(--title);
+}
