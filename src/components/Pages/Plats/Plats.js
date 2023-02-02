@@ -1,4 +1,5 @@
 import Menu from '../../Elements/Menu/Menu';
+import ComponentCarte from '../../componentCarte/componentCarte';
 import Footer from '../../Elements/Footer/Footer';
 import '../Plats/Plats.css';
 
@@ -7,7 +8,11 @@ const Plats = () => {
         <>
             <Menu />
             <main>
-                <p>Je suis la page plats</p>
+                <main>
+                <ComponentCarte info={'entree'} title={'Nos entrées'}/>
+                <ComponentCarte info={'plat'} title={'Nos plats'}/>
+                <ComponentCarte info={'dessert'} title={'Carte des dessert'}/>
+            </main>
             </main>
             <Footer />
         </>

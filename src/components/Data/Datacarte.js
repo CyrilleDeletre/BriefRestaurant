@@ -63,7 +63,7 @@ const carte=[
         type: 'dessert',
         tarif: '6.00',
         libelle: 'Coupe de Glace 2 boules (Parfums: Vanille, Chocolat, Citron, Fraise',
-        illustration: 'crumble.jpg'
+        illustration: 'glace.jpg'
     },
     {
         type: 'alcoolise',
