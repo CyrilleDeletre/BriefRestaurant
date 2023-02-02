@@ -1,8 +1,9 @@
 import Data from '../../components/Data/Datacarte';
+import './componentCarte.css'
 
-export default function ComponentCarte({info, title}){
+export default function ComponentCarte({info, title, uneClass}){
     return(
-        <div>
+        <div className={uneClass}>
             <h2>{title}</h2>
             <ul>
                 {Data.map((uneData, i) =>
@@ -11,10 +12,10 @@ export default function ComponentCarte({info, title}){
                         if (uneData.type === parametre) 
                         {
                             return (
-                                <li key={i}>
+                                <li id={i} key={i}>
                                     <img src={`img/${uneData.illustration}`} alt={uneData.illustration}/>
-                                    <p>{uneData.libelle}</p>
-                                    <p>{uneData.tarif}</p>
+                                    <p className='p1'>{uneData.libelle}</p>
+                                    <p className='p2'>{`${uneData.tarif} €`}</p>
                                 </li>
                             )
                         }

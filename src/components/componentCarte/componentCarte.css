@@ -1,0 +1,11 @@
+.solide ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.solide img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

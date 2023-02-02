@@ -6,9 +6,9 @@ const Plats = () => {
         <>
             <Menu />
             <main>
-                <ComponentCarte info={'entree'} title={'Nos entrées'}/>
-                <ComponentCarte info={'plat'} title={'Nos plats'}/>
-                <ComponentCarte info={'dessert'} title={'Carte des dessert'}/>
+                <ComponentCarte info={'entree'} title={'Nos entrées'} uneClass={'solide'}/>
+                <ComponentCarte info={'plat'} title={'Nos plats'} uneClass={'solide'}/>
+                <ComponentCarte info={'dessert'} title={'Carte des dessert'} uneClass={'solide'}/>
             </main>
         </>
     )
