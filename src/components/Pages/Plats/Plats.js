@@ -8,11 +8,9 @@ const Plats = () => {
         <>
             <Menu />
             <main>
-                <main>
                 <ComponentCarte info={'entree'} title={'Nos entrées'}/>
                 <ComponentCarte info={'plat'} title={'Nos plats'}/>
                 <ComponentCarte info={'dessert'} title={'Carte des dessert'}/>
-            </main>
             </main>
             <Footer />
         </>
