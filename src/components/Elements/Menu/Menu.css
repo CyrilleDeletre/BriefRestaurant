@@ -41,4 +41,8 @@ header nav div a{
 header nav div a img{
     padding: 10px;
     height: 60px;
+    
+}
+.titre{
+    font-family: 'Dancing Script', cursive;
 }

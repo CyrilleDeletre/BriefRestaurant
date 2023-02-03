@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import {useState} from "react";
 import Data from '../../Data/DataSlider';
 import './Slider.css';
+// var b = false;
 
 const Slider = () => {
 
     const [slide, setSlide] = useState(0);
 
-
     // const target = (variable, slide)=>{
-       
+    //     b = true;
     //     variable = slide;
     //     setSlide(variable);
     // }
@@ -30,7 +30,12 @@ const Slider = () => {
     } 
 
     useEffect(() => {  
-        play();   
+        // if(b === true){
+           
+        // }else{
+            play();   
+        // }
+       
     });
 
     return (
