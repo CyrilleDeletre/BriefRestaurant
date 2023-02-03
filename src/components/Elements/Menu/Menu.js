@@ -8,23 +8,23 @@ const Navbar = () => {
                 <nav>
                     <div>
                 
-                        <Link Link to="/">
+                        <Link to="/">
                             <img src="../img/logoRestaurant.jpg" alt="Logo du restaurant la table de Chantal" />
                             Chantal
                         </Link>
                     </div>
                     <ul>
                         <li>
-                            <Link Link to="/">Accueil</Link>
+                            <Link to="/">Accueil</Link>
                         </li>
                         <li>
-                            <Link Link to="/plats">Solide</Link>
+                            <Link to="/plats">Solide</Link>
                         </li>
                         <li>
-                            <Link Link to="/boissons?name=focus">Liquide</Link>
+                            <Link to="/boissons?name=focus">Liquide</Link>
                         </li>
                         <li>
-                            <Link Link to="/contact">Contact</Link>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>

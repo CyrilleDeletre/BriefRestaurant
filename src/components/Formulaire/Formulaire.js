@@ -8,7 +8,7 @@ function Formulaire() {
 
             <section className="inputcss">
                 <div>
-                    <label for="lastname">Nom<span>*</span> : </label>
+                    <label htmlFor="lastname">Nom<span>*</span> : </label>
                     <input
                         type="text"
                         name="lastname"
@@ -19,7 +19,7 @@ function Formulaire() {
                 </div>
 
                 <div>
-                    <label for="firstname">Prénom<span>*</span> : </label>
+                    <label htmlFor="firstname">Prénom<span>*</span> : </label>
                     <input
                         type="text"
                         name="firstname"
@@ -32,7 +32,7 @@ function Formulaire() {
 
             <section className="inputcss">
                 <div>
-                    <label for="birthdate">Date de naissance :</label>
+                    <label htmlFor="birthdate">Date de naissance :</label>
                     <input
                         type="date"
                         name="birthdate"
@@ -43,7 +43,7 @@ function Formulaire() {
                 </div>
 
                 <div>
-                    <label for="email">Adresse mail<span>*</span> : </label>
+                    <label htmlFor="email">Adresse mail<span>*</span> : </label>
                     <input
                         type="email"
                         name="email"
@@ -71,9 +71,9 @@ function Formulaire() {
                 </div>
             </section>
 
-            <section class="cgu">
+            <section className="cgu">
                 <div>
-                    <label for="cgu">CGU<span>*</span> :</label>
+                    <label htmlFor="cgu">CGU<span>*</span> :</label>
                     <input
                         type="checkbox"
                         name="cgu"

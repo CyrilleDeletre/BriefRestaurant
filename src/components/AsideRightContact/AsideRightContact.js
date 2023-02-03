@@ -10,50 +10,44 @@ function AsideRightContact() {
         <section>
           <h2>Horaire d'ouverture</h2>
           <table>
-            <tr>
-              <td>Lundi</td>
-              <td>12:00 - 14:30</td>
-            </tr>
-
-            <tr>
-              <td>Mardi</td>
-              <td>12:00 - 14:30</td>
-            </tr>
-
-            <tr>
-              <td>Mercredi</td>
-              <td>12:00 - 14:30</td>
-            </tr>
-
-            <tr>
-              <td>Jeudi</td>
-              <td>12:00 - 14:30</td>
-            </tr>
-
-            <tr>
-              <td>Vendredi</td>
-              <td>12:00 - 14:30</td>
-            </tr>
-
-            <tr>
-              <td>&nbsp;</td>
-              <td>18:00 - 23:00</td>
-            </tr>
-
-            <tr>
-              <td>Samedi</td>
-              <td>12:00 - 14:30</td>
-            </tr>
-
-            <tr>
-              <td>&nbsp;</td>
-              <td>18:00 - 23:00</td>
-            </tr>
-
-            <tr>
-              <td>Dimanche</td>
-              <td><span>FERMÉ</span></td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Lundi</td>
+                <td>12:00 - 14:30</td>
+              </tr>
+              <tr>
+                <td>Mardi</td>
+                <td>12:00 - 14:30</td>
+              </tr>
+              <tr>
+                <td>Mercredi</td>
+                <td>12:00 - 14:30</td>
+              </tr>
+              <tr>
+                <td>Jeudi</td>
+                <td>12:00 - 14:30</td>
+              </tr>
+              <tr>
+                <td>Vendredi</td>
+                <td>12:00 - 14:30</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>18:00 - 23:00</td>
+              </tr>
+              <tr>
+                <td>Samedi</td>
+                <td>12:00 - 14:30</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>18:00 - 23:00</td>
+              </tr>
+              <tr>
+                <td>Dimanche</td>
+                <td><span>FERMÉ</span></td>
+              </tr>
+            </tbody>
             
           </table>
       </section>

@@ -17,10 +17,10 @@ const Footer = () => {
 
                     <ul>
                         <li>
-                            <Link Link to="/cgu">CGU</Link>
+                            <Link to="/cgu">CGU</Link>
                         </li>
                         <li>
-                            <Link Link to="/protection">Protection des données</Link>
+                            <Link to="/protection">Protection des données</Link>
                         </li>
                     </ul>
                 </nav>
