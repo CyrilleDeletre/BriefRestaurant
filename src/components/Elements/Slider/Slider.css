@@ -1,16 +1,21 @@
 .puce{
     height: 15px;
     width: 100px;
-    background-color: brown;
+    background-color: var(--text);
+    border:2px Solid var(--title);
+    border-radius: 5px;
 }
 .target{
     height: 15px;
     width: 100px;
-    background-color: blue;
+    background-color: var(--title);
+    border:2px Solid var(--text);
+    border-radius: 5px;
 }
 .puces{
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 40px;
     cursor: pointer;
 }
