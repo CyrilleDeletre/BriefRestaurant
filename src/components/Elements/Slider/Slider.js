@@ -7,11 +7,11 @@ const Slider = () => {
 
     const [slide, setSlide] = useState(0);
 
-    const target = (variable, slide)=>{
+    // const target = (variable, slide)=>{
        
-        variable = slide;
-        setSlide(variable);
-    }
+    //     variable = slide;
+    //     setSlide(variable);
+    // }
 
     const play = () =>{
         
