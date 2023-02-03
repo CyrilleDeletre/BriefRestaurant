@@ -7,6 +7,7 @@ const Slider = () => {
 
     const [slide, setSlide] = useState(0);
 
+
     // const target = (variable, slide)=>{
        
     //     variable = slide;
@@ -28,7 +29,7 @@ const Slider = () => {
 
     } 
 
-    useEffect(() => {      
+    useEffect(() => {  
         play();   
     });
 
