@@ -27,12 +27,12 @@ const Slider = () => {
     play();
 
     return (
-        <div>
+        <div className="slider">
         <div><img src={Data[slide].url} alt={Data[slide].alt}/></div>
 
         <ul className="puces">
         {Data.map((uneImage, i) => (
-            <li onClick = {() => target(slide, i)} className={i === slide ? 'target' : 'puce'}>
+            <li key={uneImage.id} onClick = {() => target(slide, i)} className={i === slide ? 'target' : 'puce'}>
             </li>
        ))}   
         </ul>

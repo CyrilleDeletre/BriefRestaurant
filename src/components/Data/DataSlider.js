@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 const dataSlider = [
     {
         id: uuidv4(),
-        url:"img/SliderChantal3.jpg",
+        url:"img/SliderChantal1.jpg",
         alt:"Photo de Chantal"
     },
     {
@@ -13,7 +13,7 @@ const dataSlider = [
     },
     {
         id: uuidv4(),
-        url:"img/SliderChantal1.jpg",
+        url:"img/SliderChantal3.jpg",
         alt:"Photo du bar du restaurant La table de Chantal"
     },
     {
