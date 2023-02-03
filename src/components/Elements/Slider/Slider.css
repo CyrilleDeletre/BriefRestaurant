@@ -1,0 +1,16 @@
+.puce{
+    height: 15px;
+    width: 100px;
+    background-color: brown;
+}
+.target{
+    height: 15px;
+    width: 100px;
+    background-color: blue;
+}
+.puces{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
