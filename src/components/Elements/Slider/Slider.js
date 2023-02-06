@@ -12,25 +12,18 @@ const Slider = () => {
         setSlide(variable);
     }
 
-    // const play = () =>{
-        
-      
-
-    // } 
-
     useEffect(() => {  
-        const timer = setInterval(() => {
-            
+
+        const timer = setInterval(() => {        
             if(slide !== Data.length-1){
                 setSlide(slide + 1);
             }
-            else{
-                
+            else{               
                 setSlide(0);
             } 
-
         }, "4000"); 
-       return () => clearInterval(timer);
+        return () => clearInterval(timer);
+
     });
 
     return (
