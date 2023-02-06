@@ -8,6 +8,7 @@
     padding: 20px;
     border: 6px solid var(--borderColor);
     border-radius: 20px;
+    font-size: 1rem;
 }
 
 .presentation h2{
